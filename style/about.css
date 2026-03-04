@@ -1,0 +1,130 @@
+:root {
+    --primary: #1E3A8A;
+    --secondary: #10B981;
+    --accent: #F59E0B;
+    --dark: #1F2937;
+    --light: #fafcfe;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: var(--light);
+    color: #333;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: absolute;
+    width: 100%;
+    background: transparent;
+}
+
+.logoImg {
+    width: 250px;
+   
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: var(--primary);
+}
+
+
+.hero {
+    background: url("https://wallpaperbat.com/img/9723433-desktop-wallpaper-villa-pools-houses.jpg") no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: #000;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: var(--primary);
+}
+
+
+.values, .team {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 1;
+    min-width: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.stats {
+     background: #0a3d62;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.stats h3 {
+    font-size: 30px;
+}
+
+.footer {
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.footer img {
+    width: 25px;
+    margin: 10px;
+}
+
+.footer a {
+    color: var(--secondary);
+    text-decoration: none;
+}
