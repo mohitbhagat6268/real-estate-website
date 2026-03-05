@@ -33,15 +33,15 @@ body{
     height: 100%;
 }
 .image-text{
-    position: absolute;
-    bottom: 350px;  
-    left: 40px;
-    color: #1f2932;
+    position: absolute; 
+    left: 30px;
+    top: 10px;
+    color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
 }
 .image-text h1{
-  margin-bottom: 1px;
+    margin-bottom: 2px;
 }
 .form{
     background-color: #ffffff;
