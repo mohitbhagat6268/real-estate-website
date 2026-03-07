@@ -133,7 +133,7 @@ body{
     color: #1f2937;
     font-size: 25px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .stat-box h2{
     font-size:36px;
@@ -213,6 +213,62 @@ body{
     background-color: #6ae6bc;
     transform:translateY(-8px);
 }
+
+.luxury-journey{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#f8fafc;
+    color:#1f2937;
+}
+
+.journey-title{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:70px;
+    color:#1f2937;
+}
+
+.journey-step{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin-bottom:70px;
+}
+
+.journey-step img{
+    width:350px;
+    height:230px;
+    object-fit:cover;
+    border-radius:10px;
+    transition:0.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15)
+}
+
+.journey-step img:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.journey-text{
+ width:500px;
+}
+
+.journey-text h3{
+    font-size:26px;
+    margin-bottom:10px;
+    color:#10B981;
+}
+
+.journey-text p{
+color:#374151;
+}
+
+.reverse{
+flex-direction:row-reverse;
+}
+
 .footer{
     background-color:#1f2937;
     color:white;
@@ -476,5 +532,69 @@ body{
     .social-media img{
         width:22px;
         margin:5px;
+    }
+    
+    .journey-step{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+
+    .reverse{
+        flex-direction:column;
+    }
+
+    .journey-step img{
+        width:100%;
+        max-width:300px;
+        height:auto;
+    }
+
+    .journey-text{
+        max-width:100%;
+    }
+
+    .property-grid{
+        gap:20px;
+    }
+
+    .property-card{
+        width:90%;
+    }
+
+    .category-grid{
+        gap:15px;
+    }
+
+    .footer-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .footer-left{
+        align-items:center;
+    }
+
+    .footer-links{
+        align-items:center;
+    }
+
+    .subscribe-box{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .subscribe-box input{
+        width:200px;
+        margin-left:0;
+    }
+
+    .subscribe-box button{
+        margin-top:10px;
+    }
+
+    .stats{
+        flex-direction:column;
+        gap:15px;
     }
 }
